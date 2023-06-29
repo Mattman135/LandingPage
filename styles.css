@@ -1,0 +1,193 @@
+/* Elements I use to inspect the page but they shoudl be deleted */
+
+
+html {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* Type selectors */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    margin: 0;
+    height: 1000px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    border: none;
+    padding: 4px 12px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    width: 100%;
+    height: 50px;
+}
+
+/* Class selectors */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    border: none;
+}
+
+.header-one, .header-two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.header-two {
+    padding-bottom: 16px;
+}
+
+.one {
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+}
+
+.one-pictures {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #E5E7EB;
+    text-decoration: 36px light italic #1F2937;
+}
+
+.three {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 16px;
+    width: 750px;
+}
+
+.three > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* Other types of selectors */
+
+.header-two > div > h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.header-two > img {
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+}
+
+.header-two div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+    padding: 16px 0;
+}
+
+.one > p {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.one-pictures > div > img {
+    border: solid blue;
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+}
+
+.one-pictures > div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    padding: 2px;
+    text-align: center;
+    gap: 0;
+}
+
+.one-pictures > div > p {
+    color: gray;
+}
+
+.three > div > button {
+    border: solid white;
+}
+
+.three-p1 {
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.two .two-point-one {
+    width: 750px;
+    font-style: italic;
+}
+
+.two .two-point-two {
+    font-weight: bold;
+}
